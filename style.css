@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.imagem {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+#contato {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+}
+.social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 15px;
+}
+.social a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  gap: 4px;
+  align-items: center;
+}
+.form {
+  width: 100%;
+}
+.form button {
+  width: 100%;
+}
+footer div {
+  width: 100%;
+  max-width: 1280px;
+  height: 60px;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer div p {
+  margin-bottom: 0;
+}
+@media (max-width: 576px) {
+  .test {
+    display: grid;
+  }
+  .primeira {
+    flex-direction: column;
+    align-items: center;
+  }
+  .text {
+    order: 2;
+  }
+  .imagem {
+    order: 1;
+  }
+  .button {
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  #contato {
+    width: 100%;
+    margin-left: 0;
+  }
+  .divResp {
+    flex-direction: column;
+  }
+  .divResp .social {
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 1920px) {
+}
